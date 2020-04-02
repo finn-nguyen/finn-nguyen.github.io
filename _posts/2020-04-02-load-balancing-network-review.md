@@ -3,9 +3,7 @@ layout: post
 title: Load Balancing - Scaling System and Networking
 ---
 
-## Câu hỏi triệu đô?
-
-Load balancing là một chủ đề cực kỳ hấp dẫn và lôi cuốn. Bởi lẽ ai cũng muốn biết câu trả lời cho câu hỏi triệu đô **Làm thế nào để systems xử lý được tầm vài triệu concurrent request**. Một server thông thường handle được tầm vài chục nghìn request là đã muốn đình công cmnr nói chi đến vài triệu.
+**Load balancing** là một chủ đề cực kỳ hấp dẫn và lôi cuốn. Bởi lẽ ai cũng muốn biết câu trả lời cho câu hỏi triệu đô **Làm thế nào để systems xử lý được tầm vài triệu concurrent request**. Một server thông thường handle được tầm vài chục nghìn request là đã muốn đình công cmnr nói chi đến vài triệu.
 
 Cần nhiều yếu tố mới có thể lời cho câu hỏi trên một cách đầy đủ nhất. Từ việc đầu tiên là thiết kế database, tối ưu code, áp dụng caching để tăng performance cho đến scale system khi lượng request tăng cao. Trong bài viết này, mình sẽ chỉ nói đến một khía cạnh của vấn đề. Đó là scale system và sử dụng load balancer.
 
